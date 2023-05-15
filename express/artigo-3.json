@@ -1,16 +1,49 @@
 [{
         "id": 0,
         "type": 0,
-        "content": "Titulo do Artigo #3"
+        "content": "Como Steve Jobs Influenciou Minha Carreira no Front-end com o Design System da Apple"
     },
     {
         "id": 1,
         "type": 1,
-        "content": "Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Suco de cevadiss deixa as pessoas mais interessantis.Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.Interagi no mé, cursus quis, vehicula ac nisi."
+        "content": "A <a href='https://www.apple.com' target='blank'>Apple</a> é conhecida por seu design icônico e minimalista que sempre impressionou seus consumidores e fãs ao longo dos anos. Esse design elegante e atraente tem suas raízes no cofundador da empresa, Steve Jobs, que sempre teve um olhar aguçado para o design de produtos. Neste artigo, vamos explorar algumas das referências de design da Apple que foram influenciadas por <strong>Steve Jobs</strong>."
     },
+    {
+        "id": 1,
+        "type": 1,
+        "content": "Em primeiro lugar, Jobs sempre acreditou que o design de um produto deveria ser centrado no usuário e na experiência do usuário. Ele valorizava a simplicidade, a elegância e a funcionalidade em seus projetos, e isso se reflete nos produtos da Apple até hoje. A Apple sempre coloca a experiência do usuário em primeiro lugar, e isso tem sido uma das principais razões pelas quais a empresa tem sido bem-sucedida em manter seus consumidores fiéis ao longo dos anos."
+    },
+    {
+        "id": 1,
+        "type": 1,
+        "content": "Em segundo lugar, Jobs sempre teve uma preferência por materiais de alta qualidade e duráveis. Ele insistiu em usar materiais como alumínio, vidro e aço inoxidável em seus produtos para garantir que eles fossem duráveis e elegantes. Isso é evidente nos designs de produtos como o MacBook, o iPhone e o iPad, que são conhecidos por sua durabilidade e longevidade."
+    },
+    {
+        "id": 1,
+        "type": 1,
+        "content": "Em terceiro lugar, Jobs sempre foi um defensor da simplicidade no design. Ele acreditava que o design deveria ser simples e limpo, e que os usuários deveriam ser capazes de navegar pelos produtos da Apple sem dificuldade. Isso é evidente no design do iOS e macOS, que apresentam uma interface de usuário simples e intuitiva que torna a navegação fácil para qualquer pessoa."
+    },
+    {
+        "id": 1,
+        "type": 1,
+        "content": "Em quarto lugar, Jobs sempre enfatizou a importância da consistência no design. Ele acreditava que os produtos da Apple deveriam ter uma aparência consistente e uniforme em todos os aspectos, desde o hardware até o software. Isso é evidente no design dos produtos da Apple, que apresentam um visual uniforme e consistente em todos os dispositivos."
+    },
+
+    {
+        "id": 1,
+        "type": 1,
+        "content": "Por último, mas não menos importante, Jobs sempre acreditou que o design deveria ser uma forma de expressão artística. Ele queria que os produtos da Apple fossem visualmente atraentes e esteticamente agradáveis. Isso é evidente nos designs de produtos como o iMac e o iPod, que são verdadeiras obras de arte em sua simplicidade e elegância."
+    },
+    {
+        "id": 1,
+        "type": 1,
+        "content": "Em resumo, as referências de design da Apple são profundamente influenciadas por Steve Jobs e suas crenças em simplicidade, funcionalidade, consistência e estética. Essas ideias continuam a ser fundamentais para a empresa, mesmo após a morte de Jobs, e são o que tornam os produtos da Apple tão icônicos e populares entre seus consumidores."
+    },
+
     {
         "id": 2,
         "type": 2,
-        "content": "link do artigo #1"
+        "link": "www.google.com",
+        "content": "Ancora"
     }
 ]

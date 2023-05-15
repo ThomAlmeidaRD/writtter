@@ -7,7 +7,7 @@ function Home() {
             <div className="container">
                 <div className="container-content">
                     <h1>
-                        Sua próxima referência para dev <span>front-end.</span>
+                        Sua próxima referência para dev <span>front-end</span>
                     </h1>
                     
                     <p>Professor e Desenvolvedor Front-end com passagens em uma multinacional, com foco em entregar com excelência os resultados ideais, seja muito bem-vindo para conhecer meus projetos e artigos.</p>

@@ -6,8 +6,8 @@ import './assets/main.css'
 // Routers
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Artigos from './components/Artigos.jsx'
-import Home from './components/home.jsx'
+import Artigos from './components/artigos'
+import Home from './components/home'
 
 const paginas = createBrowserRouter([
   {
@@ -23,6 +23,5 @@ const paginas = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={paginas} />
-  </React.StrictMode>,
+  </React.StrictMode>
 )
-b 

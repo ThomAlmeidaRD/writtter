@@ -8,14 +8,18 @@
     font-size: 62px;
     font-weight: 900;
     max-width: 900px;
-    line-height: 140%;
+    line-height: 120%;
     letter-spacing: -0.90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .container-content p {
     font-size: 22px;
     text-align: center;
-    margin-top: 22px;
+    margin-top: 60px;
     font-weight: 500;
     letter-spacing: 0.30px;
     line-height: 140%;
@@ -28,6 +32,7 @@
     align-items: center;
     padding: 10px;
     margin-top: 20px;
+    width: 100%
 }
 
 .tech-links ul {
@@ -79,4 +84,6 @@ span {
     box-shadow: 1px 1px 7px #4a4a4abf;
     border-top-left-radius: 55px;
     border-bottom-right-radius: 55px;
+    position: relative;
+    top: 20px;
 }
