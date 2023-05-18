@@ -1,0 +1,49 @@
+.content {
+    width: 50%;
+}
+
+.content h1,
+p {
+    margin-bottom: 20px;
+}
+
+.content h1 {
+    font-size: 40px;
+    line-height: 120%;
+}
+
+.content p {
+    font-weight: 600;
+    color: #c0c0c0;
+}
+
+.article-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.blogpost {
+    width: 43%;
+    height: 180px;
+    padding: 20px;
+    border: 1px solid #b1b1b1;
+    border-radius: 3px;
+}
+
+.blogpost h3 {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.blogpost p {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.blogpost a {
+    text-align: left;
+}

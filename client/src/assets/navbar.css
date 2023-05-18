@@ -1,14 +1,15 @@
 nav {
     padding: 12px 20px;
-    box-shadow: 1px 1px 4px #ddd;
-    position: fixed;
-    background-color: #FFF;
+    box-shadow: 1px 1px 4px #040404;
+    background-color: #101010;
     width: -webkit-fill-available;
+    margin-bottom: 5%;
+    color: #fff
 }
 
 nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     list-style: none;
     position: relative;
@@ -16,12 +17,12 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
 }
 
 nav a:hover {
     text-decoration: none;
-    color: dodgerblue;
+    color: #0860fb;
 }
 
 nav li {
@@ -36,9 +37,9 @@ nav ion-icon {
 }
 
 #logo {
-    position: absolute;
-    left: 10px;
-    color: dodgerblue;
+    color: #0860fb;
+    position: relative;
+    top: 3px;
 }
 
 #side-links {
@@ -50,17 +51,17 @@ nav ion-icon {
     font-size: 17px;
     padding: 5px 10px;
     padding-left: 15px;
-    color: #4d4d4d;
+    color: #fff;
     font-weight: 600;
     border-radius: 20px;
     border: none;
-    background-color: #e0e0e05c;
+    background-color: #2222225c;
     border: 1px solid #c8c8c8;
     width: 500px;
-    outline-color: dodgerblue;
+    outline-color: #0860fb;
 }
 
 #src-field input::placeholder {
-    color: #4d4d4dd5;
+    color: #fff;
     font-weight: 600;
 }

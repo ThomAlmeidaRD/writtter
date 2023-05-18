@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family');
 @import url('navbar.css');
 @import url('home.css');
+@import url('artigos.css');
 @import url('responsive.css');
+@import url('timeline.css');
+@import url('project.css');
 * {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #101010;
+    color: #fff;
 }
 
 main,
@@ -13,44 +22,56 @@ main,
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+}
+
+#avatar {
+    width: 100px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 4px #0f0f0f;
+    margin: 40px 0px;
 }
 
 article {
-    width: 50%;
-    padding: 40px 10px;
-    margin-top: 12%;
+    width: 60%;
 }
 
 article h2 {
     font-weight: 600;
     padding-bottom: 15px;
     line-height: 120%;
-    color: #171717;
+    color: #fff;
     font-size: 30px;
 }
 
 article p {
     line-height: 150%;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 0.02px;
     margin: 12px 0px;
-    color: #525252;
-    font-size: 16px;
+    color: #c9c9c9;
+    font-size: 18px;
 }
 
 a {
     text-decoration: none;
-    color: #0038d5;
+    color: #0860fb;
     font-weight: 300;
 }
 
 a:hover {
     text-decoration: none;
-    color: #0039d5d6;
+    color: #0860fb;
     text-decoration: underline;
 }
 
 .article-stats {
     margin-top: 10%;
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
 }

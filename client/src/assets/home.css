@@ -1,13 +1,14 @@
 .container-content {
-    width: 50%;
+    width: 60%;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .container-content h1 {
     text-align: center;
     font-size: 62px;
     font-weight: 900;
-    max-width: 900px;
+    padding: 0px 4%;
     line-height: 120%;
     letter-spacing: -0.90px;
     display: flex;
@@ -23,7 +24,7 @@
     font-weight: 500;
     letter-spacing: 0.30px;
     line-height: 140%;
-    color: #373737;
+    color: #cfcfcf;
 }
 
 .tech-links {
@@ -63,27 +64,77 @@
 
 .social-link a {
     text-decoration: none;
-    color: #373737;
+    color: #cfcfcf;
 }
 
 .social-link a:hover {
-    color: dodgerblue;
+    color: #0860fb;
     text-decoration: none;
 }
 
 .social-link:hover {
-    border-color: dodgerblue;
-    color: dodgerblue;
+    border-color: #0860fb;
+    color: #0860fb;
     cursor: pointer;
 }
 
 span {
-    background-color: dodgerblue;
+    background-color: #0860fb;
     color: #fff;
     padding: 1px 50px;
-    box-shadow: 1px 1px 7px #4a4a4abf;
+    box-shadow: 1px 1px 1px #0a0a0abf;
     border-top-left-radius: 55px;
     border-bottom-right-radius: 55px;
     position: relative;
-    top: 20px;
+    top: 11px;
+    transition: 0.5s;
+}
+
+span:hover {
+    transform: scale(1.05);
+}
+
+#name {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+#title {
+    margin: 20px 0px;
+}
+
+#down {
+    margin-top: 22px;
+}
+
+.presentation {
+    text-align: center;
+    height: 60vh;
+}
+
+#office {
+    width: 400px;
+    border-radius: 10px;
+}
+
+#with {
+    margin: 0;
+    padding: 0px 11px;
+}
+
+#prj {
+    padding-top: 40px;
+}
+
+@keyframes deslizar {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+#prj {
+    animation: deslizar is ease-in;
 }
