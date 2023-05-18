@@ -62,8 +62,14 @@ function Home() {
                         <Project
                             print='https://github.com/ThomAlmeidaRD/beka/blob/main/shots.png?raw=true'
                             name="Beka"
-                            desc="App de tarefas feito para minha namorada"
+                            desc="App de tarefas feito para minha namorada, usando o banco de dados direto do navegador (IndexDB) com o pacote npm Deexie.js"
                             langs="React, Deexie.js & Vercel"
+                        />
+                        <Project
+                            print="https://github.com/ThomAlmeidaRD/ecommerce-js/blob/main/589shots_so.png?raw=true"
+                            name="Javascritp Ecommerce "
+                            desc="Ecommerce feito com React, com a proposta de ter rotas e outras funcionalidades de um ecommerce porém sem a forma convecional que eu realizava antes"
+                            langs="React, Vercel"
                         />
                         <Project
                             print="https://github.com/ThomAlmeidaRD/version-evolved-kanban/blob/main/160shots_so.png?raw=true"
@@ -71,23 +77,19 @@ function Home() {
                             desc="Um app de kanbam com interações e realização de tarefas, feito para ser um extensão do desafio: Bora codar da Rocketseat"
                             langs="JavaScript, Github Pages"
                         />
-                        <Project
-                            print="https://github.com/ThomAlmeidaRD/ecommerce-js/blob/main/589shots_so.png?raw=true"
-                            name="Javascritp Ecommerce (arranjarei um nome melhor)"
-                            desc="Ecommerce feito com React, com a proposta de ter rotas e outras funcionalidades de um ecommerce porém sem a forma convecional que eu realizava antes"
-                            langs="React, Vercel"
-                        />
-                        <Project
-                            print="https://github.com/ThomAlmeidaRD/Huuro/blob/main/96shots_so.png?raw=true"
-                            name="Huuro"
-                            desc="Huuro é um site que calcula conta de luz baseada nos valores em KWh gastos durante o mês, usei a base de cálculos da ENEL aqui da capital de SP"
-                            langs="JavaScript, Github Pages"
-                        />
+
+                       
                         <Project
                             print="https://github.com/ThomAlmeidaRD/audioemtexto.com.br/blob/main/766shots_so.png?raw=true"
                             name="Audio em Texto"
                             desc="App que converte audio do microfone em texto que pode ser copiado para a área de transferência, usando a API do Google Chrome"
                             langs="JavaScript, php"
+                        />
+                         <Project
+                            print="https://github.com/ThomAlmeidaRD/Huuro/blob/main/96shots_so.png?raw=true"
+                            name="Huuro"
+                            desc="Huuro é um site que calcula conta de luz baseada nos valores em KWh gastos durante o mês, usei a base de cálculos da ENEL aqui da capital de SP"
+                            langs="JavaScript, Github Pages"
                         />
                         <Project
                             print="https://github.com/ThomAlmeidaRD/Pomodoro-Music-Clock/blob/main/312shots_so.png?raw=true"
