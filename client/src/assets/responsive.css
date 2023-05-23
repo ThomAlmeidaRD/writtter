@@ -1,1 +1,54 @@
-@media only screen and (min-width: 1200px) {}
+@media only screen and (max-width: 900px) {
+    nav ul {
+        justify-content: center;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    .container-content {
+        width: auto;
+    }
+    .presentation {
+        height: auto;
+    }
+    .presentation h1 {
+        font-size: 35px;
+    }
+    .container-content p {
+        font-size: 16px;
+        margin-top: 20px;
+        padding: 0px 20px;
+    }
+    #with {
+        margin-top: 12px;
+    }
+    .tech-links ul {
+        flex-wrap: wrap;
+    }
+    .tech-links li {
+        width: 75%;
+        gap: 10px;
+        padding: 10px 16px !important;
+        border-radius: 3px;
+    }
+    .tech-links {
+        width: auto;
+    }
+    #projetos {
+        grid-template-columns: repeat(1, 1fr) !important;
+        padding: 15px 25px;
+        gap: 50px !important
+    }
+    .project {
+        width: auto !important;
+    }
+    .project p {
+        padding: 0px;
+    }
+    .content {
+        width: 90%;
+    }
+    .about h1 {
+        font-size: 25px !important;
+    }
+}

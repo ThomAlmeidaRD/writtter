@@ -25,12 +25,12 @@ function Home() {
 
                         <section className="tech-links">
                             <ul>
-                                <li><ion-icon name="logo-javascript"></ion-icon></li>
-                                <li><ion-icon name="logo-react"></ion-icon></li>
-                                <li><ion-icon name="logo-html5"></ion-icon></li>
-                                <li><ion-icon name="logo-css3"></ion-icon></li>
-                                <li><ion-icon name="logo-figma"></ion-icon></li>
-                                <li>|</li>
+                                <li className="hide-mobile"><ion-icon name="logo-javascript"></ion-icon></li>
+                                <li className="hide-mobile"><ion-icon name="logo-react"></ion-icon></li>
+                                <li className="hide-mobile"><ion-icon name="logo-html5"></ion-icon></li>
+                                <li className="hide-mobile"><ion-icon name="logo-css3"></ion-icon></li>
+                                <li className="hide-mobile"><ion-icon name="logo-figma"></ion-icon></li>
+                                <li className="hide-mobile">|</li>
                                 <li className="social-link">
                                     <ion-icon name="logo-linkedin"></ion-icon>
                                     <a
