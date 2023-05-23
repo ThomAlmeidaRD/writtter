@@ -11,7 +11,6 @@ function Navbar() {
                     </a>
                 </li>
                 <li><a href="#prj">Projetos</a></li>
-                <li><a href="/artigos">Artigos</a></li>
                 <li><a href="/sobre">Sobre</a></li>
               
             </ul>
