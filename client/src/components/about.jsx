@@ -27,7 +27,7 @@ function About() {
                     <Timeline
                         year="📅 2023"
                         exp=" Aceitando Propostas"
-                        desc="Estudando React e formas de crescer negócios com Growth, busco oportunidades de desenvolvimento front-end que resolvem problemas, apresentam produtos e plataforma com interfaces incríveis focadas em conversão e posicionamento nos mecanismos de busca"
+                        desc="Estudando React e formas de crescer negócios com Growth, busco oportunidades de desenvolvimento front-end que resolvem problemas, apresentam produtos e plataformas com interfaces incríveis focadas em conversão e resultados ideais para os clientes finais!"
                     />
                 </div>
             </div>
