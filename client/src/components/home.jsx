@@ -60,43 +60,58 @@ function Home() {
                     <h3 id="prj">Projetos</h3>
                     <div className='projects' id="projetos">
                         <Project
+                            print="https://github.com/ThomAlmeidaRD/Meu-Time/blob/main/meu-time/public/shots.png?raw=true"
+                            name="Meu Time (Teste de Front-End)"
+                            desc="Aplicativo Web que fiz recentemente para um teste de vaga front-end que lista estatísticas e informações de times e ligas do mundo todo, usando API do API-Football"
+                            langs="React, ChartJS, Vercel"
+                            url="https://meu-time-lemon.vercel.app"
+                        />
+                        <Project
                             print='https://github.com/ThomAlmeidaRD/beka/blob/main/shots.png?raw=true'
                             name="Beka"
                             desc="App de tarefas feito para minha namorada, usando o banco de dados direto do navegador (IndexDB) com o pacote npm Deexie.js"
                             langs="React, Deexie.js & Vercel"
+                            url = "https://beka.vercel.app"
                         />
                         <Project
                             print="https://github.com/ThomAlmeidaRD/ecommerce-js/blob/main/589shots_so.png?raw=true"
                             name="Javascritp Ecommerce "
                             desc="Ecommerce feito com React, com a proposta de ter rotas e outras funcionalidades de um ecommerce porém sem a forma convecional que eu realizava antes"
                             langs="React, Vercel"
+                            url="https://ecommerce-js-five.vercel.app"
                         />
                         <Project
                             print="https://github.com/ThomAlmeidaRD/version-evolved-kanban/blob/main/160shots_so.png?raw=true"
                             name="Version Kanbam"
                             desc="Um app de kanbam com interações e realização de tarefas, feito para ser um extensão do desafio: Bora codar da Rocketseat"
                             langs="JavaScript, Github Pages"
+                            url="https://thomalmeidard.github.io/version-evolved-kanban/"
+
                         />
 
-                       
+
                         <Project
                             print="https://github.com/ThomAlmeidaRD/audioemtexto.com.br/blob/main/766shots_so.png?raw=true"
                             name="Audio em Texto"
                             desc="App que converte audio do microfone em texto que pode ser copiado para a área de transferência, usando a API do Google Chrome"
                             langs="JavaScript, php"
+                            url="https://github.com/ThomAlmeidaRD/audioemtexto.com.br"
                         />
-                         <Project
+                        <Project
                             print="https://github.com/ThomAlmeidaRD/Huuro/blob/main/96shots_so.png?raw=true"
                             name="Huuro"
                             desc="Huuro é um site que calcula conta de luz baseada nos valores em KWh gastos durante o mês, usei a base de cálculos da ENEL aqui da capital de SP"
                             langs="JavaScript, Github Pages"
+                            url="https://thomalmeidard.github.io/Huuro/"
                         />
                         <Project
                             print="https://github.com/ThomAlmeidaRD/Pomodoro-Music-Clock/blob/main/312shots_so.png?raw=true"
                             name="Pomodoro Music Clock"
                             desc="Pomodoro que tem um music player, esse foi um dos meus projetos mais difíceis na época que estava começando a aprender e aperfeiçoar JavaScript, mas foi muito divertido e realaizador de terminar"
                             langs="JavaScript"
+                            url="https://thomalmeidard.github.io/Pomodoro-Music-Clock/"
                         />
+
                     </div>
 
 
