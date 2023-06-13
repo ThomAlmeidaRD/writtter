@@ -60,6 +60,13 @@ function Home() {
                     <h3 id="prj">Projetos</h3>
                     <div className='projects' id="projetos">
                         <Project
+                            print="https://nippon-nu.vercel.app/nippon-screen.png"
+                            name="Nippon 🍥"
+                            desc="App Desktop feito para estudantes e desenvolvedores escreverem notas em markdown com uma interface simples e minimalista."
+                            langs="Electron, React, Vercel"
+                            url="https://nippon-nu.vercel.app"
+                        />
+                        <Project
                             print="https://github.com/ThomAlmeidaRD/Meu-Time/blob/main/meu-time/public/shots.png?raw=true"
                             name="Meu Time (Teste de Front-End)"
                             desc="Aplicativo Web que fiz recentemente para um teste de vaga front-end que lista estatísticas e informações de times e ligas do mundo todo, usando API do API-Football"
@@ -71,7 +78,7 @@ function Home() {
                             name="Beka"
                             desc="App de tarefas feito para minha namorada, usando o banco de dados direto do navegador (IndexDB) com o pacote npm Deexie.js"
                             langs="React, Deexie.js & Vercel"
-                            url = "https://beka.vercel.app"
+                            url="https://beka.vercel.app"
                         />
                         <Project
                             print="https://github.com/ThomAlmeidaRD/ecommerce-js/blob/main/589shots_so.png?raw=true"
